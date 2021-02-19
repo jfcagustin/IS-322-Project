@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color:grey !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+.nav-item:hover{
+    color: white !important;
+}
+
+body {
+    background: #f3f3f3;
+}
+
+
+#slider {
+    display: flex;
+    justify-content: center;
+}
+
+#slider img {
+    width: 80%;
+    display: none;
+}
+
+#slider .active {
+    display: block;
+}
+
+.body{
+    margin: 2em 10em;
+
+}
+
+.heading{
+    margin-left: 4em;
+}
+
+footer{
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.alignright{
+    float: right;
+}
+
+.alignleft{
+    float: left;
+}
