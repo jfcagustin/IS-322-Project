@@ -54,14 +54,14 @@
             price: '$200',
             id: 7,
             tag: 'corsair',
-            img: 'media/ck95'
+            img: 'media/ck95.jpg'
         },
         {
             title: 'Corsair Strafe',
             price: '$95',
             id: 8,
             tag: 'corsair',
-            img: 'media/products-photos/cs.jpg'
+            img: 'media/cs.jpg'
         },
         {
             title: `Priceless Antique Keyboard`,
@@ -74,11 +74,11 @@
 
     function renderKey(results) {
         const prodDiv = document.querySelector('#prodList');
-        prodCon.innerHTML = '';
+        prodDiv.innerHTML = '';
 
         const products = results.map((product) =>
             `<div class="card">
-                <img src="${product.img}">
+                <img src="${product.img}" width="400">
                 <h1>${product.title}</h1>
                 <h2>${product.price}</h2>
              </div>
@@ -86,12 +86,13 @@
         )
 
         products.forEach((product) => {
-            prodCon.innerHTML += product;
+            prodDiv.innerHTML += product;
         });
 
-        renderKey(mockDatabase);
+
     }
 
+    renderKey(mockDatabase);
     /*function renderKey(results) {
         const prodDiv = document.querySelector('#prodList');
         prodCon.innerHTML = '';
