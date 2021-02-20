@@ -88,9 +88,9 @@
 
         var products = results.map((product) =>
             `<div class="card">
-                <img src="${product.img}" width="400">
-                <h1>${product.title}</h1>
-                <h2>${product.price}</h2>
+                <img src="${product.img}" width="200">
+                <h3>${product.title}</h3>
+                <h4>${product.price}</h4>
              </div>
             `
         )
@@ -98,15 +98,14 @@
         products.forEach((product) => {
             prodDiv.innerHTML += product;
         });
-
-
     }
 
     renderKey(mockDatabase);
 
+
     function orderBy(sortValue) {
         // Sort method varies based on what type of value we're sorting
-        var sortedResults = (sortValue === 'title') ?
+        var sortedResults = (sortValue === 'title')?
             mockDatabase.sort(function (a, b) { // Strings need to be sorted in a slightly more compldex way
                 var titleA = a.title.toUpperCase(); // ignore upper and lowercase
                 var titleB = b.title.toUpperCase(); // ignore upper and lowercase
@@ -117,7 +116,7 @@
                 if (titleA > titleB) {
                     return 1;
                 }
-            }) :
+            }):
             mockDatabase.sort(function (a, b) { // Numbers a booleans are much simpler.
                 // Just need postive or negative number
                 // Object properties can be accessed through a string representing their title
@@ -125,49 +124,17 @@
             });
         renderKey(sortedResults);
     }
-    // Change events trigger after the value of a form input changes
+
     document.querySelector('#orderBy').addEventListener('change', function(event){
         // Event is the JavaScript event that transpired, in our change a CHANGE event.
         // Target is the element it was performed on, useful for when the event targets
         // multiple elements.
-        // Value has the title implies is the current value of the input element, if there is one
+        // Value has the name implies is the current value of the input element, if there is one
+        console.log(event.target.value);
         orderBy(event.target.value);
     });
 
-    /*function alphaSort(title) {
-        var sortedResults = (title === 'title')
-            mockDatabase.sort(function(a,b) {
-                var titleA = a.title.toUpperCase();
-                var titleB = b.title.toUpperCase();
 
-                if(titleA < titleB){
-                    return -1;
-                }
-
-                if(titleA > titleB) {
-                    return 1;
-                }
-            });
-            mockDatabase.sort(function(a,b) {
-                return a[title] - b[title];
-            });
-        renderKey(sortedResults);
-    }*/
-
-
-    /*function priceSort() {
-        if (this.value == 'Price: Low -> High') {
-            mockdbAltered.sort((a, b) => parseFloat(a.price) - parseFloat(b.price));
-            renderKey(mockdbAltered);
-
-
-        }
-        if (this.value == 'Price: Low -> High') {
-            mockdbAltered.sort((a, b) => parseFloat(b.price) - parseFloat(a.price));
-            renderKey(mockdbAltered);
-
-        }
-    }*/
 
 
 })();
