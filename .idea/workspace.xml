@@ -19,20 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a04981-7c38-49ee-bedc-e8e09a325ccc" name="Default Changelist" comment="Filters and sorting work">
-      <change beforePath="$PROJECT_DIR$/.idea/IS-322-Project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/IS-322-Project.iml" afterDir="false" />
+    <list default="true" id="b0a04981-7c38-49ee-bedc-e8e09a325ccc" name="Default Changelist" comment="Edited Images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/products.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/ck70.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/ck70.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/ck95.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/ck95.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/cs.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/cs.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/hxfp.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/hxfp.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/hxfr.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/hxfr.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/hxo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/hxo.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/poskb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/poskb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rbw.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rbw.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rhm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rhm.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/rhte.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/rhte.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/products.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +77,7 @@
       <workItem from="1613747939893" duration="1209000" />
       <workItem from="1613760673270" duration="5707000" />
       <workItem from="1613784365351" duration="7091000" />
-      <workItem from="1613863673243" duration="4398000" />
+      <workItem from="1613863673243" duration="5794000" />
     </task>
     <task id="LOCAL-00001" summary="Filters and sorting work">
       <created>1613867139460</created>
@@ -97,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613867139460</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Edited Images">
+      <created>1613868089363</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1613868089363</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,12 +113,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Filters and sorting work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Filters and sorting work" />
+    <MESSAGE value="Edited Images" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edited Images" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="-827" key="Vcs.Push.Dialog.v2" timestamp="1613867146562">
+    <state x="552" y="-827" key="Vcs.Push.Dialog.v2" timestamp="1613868107007">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="552" y="-827" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1613867146562" />
+    <state x="552" y="-827" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1613868107007" />
   </component>
 </project>

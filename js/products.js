@@ -73,7 +73,7 @@
             size: '100'
         },
         {
-            title: `Priceless Antique Keyboard`,
+            title: `Top-Tier Keyboard`,
             price: 1000,
             id: 9,
             brand: 'other',
@@ -88,9 +88,9 @@
 
         var products = results.map((product) =>
             `<div class="card">
-                <img src="${product.img}" width="500" height="500">
-                <h3>${product.title}</h3>
-                <h4>$${product.price}</h4>
+                <img class="card-img-top" src="${product.img}" width="450" height="450">
+                <h4 class="card-title">${product.title}</h4>
+                <h5 class="card-text">$${product.price}</h5>
              </div>
             `
         )

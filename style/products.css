@@ -5,11 +5,34 @@
 img {}
 
 body {
-    background-color: #343a40;
+    background-color: #f3f3f3;
+
 }
 
+#prodList {
+
+}
+.row {
+    margin:auto;
+}
 .card {
-    max-width: 505px;
+    width: 450px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 110px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+
+}
+
+.card img {
+    border-bottom: lightgrey 1px solid;
+    border-radius: 20px;
+}
+
+.card-title, .card-text {
+    padding: 5px
 }
 
 #prodList {
