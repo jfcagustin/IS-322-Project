@@ -7,7 +7,7 @@
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/products.css">
     <script defer src="js/products.js"></script>
 </head>
 
@@ -32,27 +32,29 @@
 <div class="form-group">
     <label for="orderBy">Order By: </label>
     <select id="orderBy" name="orderBy">
-        <!--<option value="price">Price: Low -> High</option>
-        <option value="price">Price: High -> Low</option>-->
-        <option value="none">Blank</option>
-        <option value="name">Name: A -> Z</option>
+        <!--<option value="price">Price: High -> Low</option>-->
+        <option value="none">...</option>
+        <option value="price">Price: Low -> High</option>
+        <option value="title">Name: A -> Z</option>
         <!--<option value="name">Name: Z -> A</option>-->
     </select>
 
-    <!--<label for="filterBy">Filter by Brand: </label>
-    <select id="filterBy" name="orderBy">
-        <option value="brand">Corsair</option>
-        <option value="brand">HyperX</option>
-        <option value="brand">Razer</option>
-        <option value="brand">Other</option>
+    <label for="brand">Filter by Brand: </label>
+    <select id="brand" name="brand">
+        <option value="none">...</option>
+        <option value="corsair">Corsair</option>
+        <option value="hyperx">HyperX</option>
+        <option value="razer">Razer</option>
+        <option value="other">Other</option>
     </select>
 
-    <label for="filterBy">Filter by Size: </label>
-    <select id="filterBy" name="orderBy">
-        <option value="size">60%</option>
-        <option value="size">80%</option>
-        <option value="size">>= 100%</option>
-    </select>-->
+    <label for="size">Filter by Size: </label>
+    <select id="size" name="size">
+        <option value="none">...</option>
+        <option value="60">60%</option>
+        <option value="80">80%</option>
+        <option value="100">>= 100%</option>
+    </select>
 </div>
 
 <div id="prodList"></div>
