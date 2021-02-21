@@ -88,7 +88,7 @@
 
         var products = results.map((product) =>
             `<div class="card">
-                <img src="${product.img}" width="400" height="200">
+                <img src="${product.img}" width="500" height="500">
                 <h3>${product.title}</h3>
                 <h4>$${product.price}</h4>
              </div>
