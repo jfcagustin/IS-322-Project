@@ -1,5 +1,21 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-link {
+    color:grey !important;
+}
+
+.navbar-brand{
+    color: white !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+
+.nav-item:hover{
+    color: white !important;
 }
 
 img {}
@@ -12,29 +28,37 @@ body {
 #prodList {
 
 }
-.row {
-    margin:auto;
-}
+
 .card {
     width: 450px;
     float: left;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 110px;
-    margin-bottom: 50px;
+    margin: 50px;
     border-radius: 20px;
 
 }
 
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
 .card img {
-    border-bottom: lightgrey 1px solid;
+    border-bottom: black 1px solid;
     border-radius: 20px;
 }
 
 .card-title, .card-text {
-    padding: 5px
+    padding: 5px;
+
 }
 
 #prodList {
     display: block;
+    height: auto;
 }
+
+.form-group {
+    margin-top: 25px;
+    margin-left: 25px;
+}
+

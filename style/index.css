@@ -46,20 +46,17 @@ body {
     margin-left: 4em;
 }
 
-footer{
-    bottom: 0;
-    width: 100%;
-    background-color: #343a40;
+@media only screen and (max-width: 768px){
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#footer {
     color: white;
-    text-align: center;
-    padding: 10px;
-    font-size: 1rem;
-}
-
-.alignright{
-    float: right;
-}
-
-.alignleft{
-    float: left;
+    background: #343A40;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
 }

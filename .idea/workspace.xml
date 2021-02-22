@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b0a04981-7c38-49ee-bedc-e8e09a325ccc" name="Default Changelist" comment="Edited Images">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/products.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +80,7 @@
       <workItem from="1613760673270" duration="5707000" />
       <workItem from="1613784365351" duration="7091000" />
       <workItem from="1613863673243" duration="5794000" />
+      <workItem from="1613877177262" duration="1520000" />
     </task>
     <task id="LOCAL-00001" summary="Filters and sorting work">
       <created>1613867139460</created>
