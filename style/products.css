@@ -69,3 +69,18 @@ body {
         width: 10%;
     }
 }
+
+@media only screen and (max-width: 768px){
+    #footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+#footer {
+    color: white;
+    background: #343A40;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}

@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b0a04981-7c38-49ee-bedc-e8e09a325ccc" name="Default Changelist" comment="Edited Images">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/products.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/products.css" afterDir="false" />
-    </list>
+    <list default="true" id="b0a04981-7c38-49ee-bedc-e8e09a325ccc" name="Default Changelist" comment="Edited Images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -79,7 +75,7 @@
       <workItem from="1613784365351" duration="7091000" />
       <workItem from="1613863673243" duration="5794000" />
       <workItem from="1613877177262" duration="1520000" />
-      <workItem from="1613952370345" duration="2301000" />
+      <workItem from="1613952370345" duration="2660000" />
     </task>
     <task id="LOCAL-00001" summary="Filters and sorting work">
       <created>1613867139460</created>
@@ -102,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613952480207</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Filter CSS and re-adding footer">
+      <created>1613954801117</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613954801117</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,13 +127,14 @@
     <MESSAGE value="Filters and sorting work" />
     <MESSAGE value="Edited Images" />
     <MESSAGE value="Footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Footer" />
+    <MESSAGE value="Filter CSS and re-adding footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filter CSS and re-adding footer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1613952516183">
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2" timestamp="1613954809993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="552" y="-827" key="Vcs.Push.Dialog.v2/0.0.1536.824/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1613868107007" />
-    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613952516183" />
+    <state x="442" y="200" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1613954809993" />
   </component>
 </project>
