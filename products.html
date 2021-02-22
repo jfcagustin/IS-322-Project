@@ -29,36 +29,38 @@
 </nav>
 
 <aside class="navigation">
-<div class="form-group">
-    <label for="orderBy">Order By: </label>
-    <select id="orderBy" name="orderBy">
-        <!--<option value="price">Price: High -> Low</option>-->
-        <option value="none">...</option>
-        <option value="price">Price: Low -> High</option>
-        <option value="title">Name: A -> Z</option>
-        <!--<option value="name">Name: Z -> A</option>-->
-    </select>
+    <div class="form-group">
+        <label for="orderBy">Order By: </label>
+        <select id="orderBy" name="orderBy">
+            <!--<option value="price">Price: High -> Low</option>-->
+            <option value="none">select</option>
+            <option value="price">Price: Low -> High</option>
+            <option value="title">Name: A -> Z</option>
+            <!--<option value="name">Name: Z -> A</option>-->
+        </select>
 
-    <label for="brand">Filter by Brand: </label>
-    <select id="brand" name="brand">
-        <option value="none">...</option>
-        <option value="corsair">Corsair</option>
-        <option value="hyperx">HyperX</option>
-        <option value="razer">Razer</option>
-        <option value="other">Other</option>
-    </select>
+        <label for="brand">Filter by Brand: </label>
+        <select id="brand" name="brand">
+            <option value="none">select</option>
+            <option value="corsair">Corsair</option>
+            <option value="hyperx">HyperX</option>
+            <option value="razer">Razer</option>
+            <option value="other">Other</option>
+        </select>
 
-    <label for="size">Filter by Size: </label>
-    <select id="size" name="size">
-        <option value="none">...</option>
-        <option value="60">60%</option>
-        <option value="80">80%</option>
-        <option value="100">>= 100%</option>
-    </select>
-    <div class="container">
-        <div id="prodList"></div>
+        <label for="size">Filter by Size: </label>
+        <select id="size" name="size">
+            <option value="none">select</option>
+            <option value="60">60%</option>
+            <option value="80">80%</option>
+            <option value="100">>= 100%</option>
+        </select>
     </div>
-</div>
 </aside>
+<div class="container">
+    <div id="prodList"></div>
+</div>
+
+
 </body>
 </html>
